@@ -1,0 +1,36 @@
+{
+  "name": "@asrax/setup",
+  "version": "0.1.0",
+  "description": "Bootstrap ~/.asrax and Cursor MCP for AM (no amctl clone)",
+  "type": "module",
+  "bin": {
+    "asrax-setup": "./bin/asrax-setup.js"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "templates",
+    "README.md"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AM-Portfolio/amctl.git",
+    "directory": "packages/asrax-setup"
+  },
+  "keywords": [
+    "asrax",
+    "mcp",
+    "cursor",
+    "setup"
+  ],
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "node ./bin/asrax-setup.js"
+  }
+}

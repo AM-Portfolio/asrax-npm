@@ -1,0 +1,6 @@
+﻿{
+  "name": "asrax-npm",
+  "private": true,
+  "description": "Public installers for AM MCP Hub (see packages/)",
+  "workspaces": ["packages/asrax-mcp", "packages/asrax-setup"]
+}
